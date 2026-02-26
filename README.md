@@ -1,8 +1,7 @@
 # Fundamental-of-Cpp-languange
 # Basic Syntax 
 # Hello World Program
-```
-.cpp
+```cpp
 #include<iostream>
 using namespace std;
 int main()

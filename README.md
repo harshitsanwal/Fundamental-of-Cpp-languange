@@ -10,7 +10,22 @@ int main()
     cout<<"Hello World"<<endl;
     cout<<"Welcome to my first code of C++\n"; 
     cout<<"learning C++"; 
-    cout<<"\nmy name is Harshit"<<'\n';
     return 0;
 }
 ```
+# Takin value from user
+```cpp
+#include<iostream>
+using namespace std;
+int main()
+{
+int i;
+cout << "Enter a number:";
+cin >> a;
+cout<< "The entered number is:<< a <<endl;
+return 0;
+}
+```
+# variable in cpp
+```cpp
+

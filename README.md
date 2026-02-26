@@ -2,6 +2,7 @@
 # Basic Syntax 
 # Hello World Program
 ```
+.cpp
 #include<iostream>
 using namespace std;
 int main()

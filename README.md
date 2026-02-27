@@ -71,7 +71,7 @@ int main()
     return 0;
 }
 ```
-#Printing the sum of n Natural number
+# Printing the sum of n Natural number
 ```cpp
 #include<iostream>
 using namespace std;

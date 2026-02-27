@@ -91,6 +91,32 @@ int main()
 ```
 # A Simple Calculator
 ```cpp
+#include<iostream>
+using namespace std;
+int main()
+{
+int num1,num2,i;
+cout<< "Enter the first number:";
+cin>>num1;
+cout<<"Enter the second number:";
+cin>>num2;
+cout<<"Press 1 for Addition"<<endl;
+cout<<"Press 2 for Subtraction"<<endl;
+cout<<"Press 3 for multiplication"<<endl;
+cout<<"Press 4 for Division"<<endl;
+cin>>i;
+if(i==1)
+cout<<"Addition of 2 number is :-"<<num1+num2<<endl;
+else if(i==2)
+cout<<"Subtraction of 2 number is :-"<<num1-num2<<endl;
+else if(i==3)
+cout<<"Multliplication of 2 number is:-"<<num1*num2<<endl;
+else if(i==4)
+cout<<"Division of 2 number is:-"<<num1/num2<<endl;
+else
+cout<<"Enter choice is invalid"<<endl;
+return 0;
+}
+```
 
-
-
+ 

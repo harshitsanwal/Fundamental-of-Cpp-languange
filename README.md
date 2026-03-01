@@ -118,5 +118,28 @@ cout<<"Enter choice is invalid"<<endl;
 return 0;
 }
 ```
-
- 
+# Simple Patterns
+# 
+```cpp
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n,i=1,j,k=1;
+    cout << "Enter the number: ";
+    cin>> n;
+    while(i<n)
+    {
+        j=1;
+        while(j<n)
+        {
+            cout << k;
+            j++;
+        }
+        cout << endl;
+        i++;
+        k++;
+    }
+    return 0;
+}
+```

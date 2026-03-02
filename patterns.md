@@ -23,6 +23,15 @@ int main()
     return 0;
 }
 ```
+Input/Output
+```
+Enter the number: 4
+5432
+5432
+5432
+5432
+```
+
 # 2 Pattern
 ```cpp
 #include<iostream>
@@ -46,6 +55,15 @@ int main()
     }
     return 0;
 }
+```
+Input/Output
+```
+Enter the number: 5
+ 1 2 3 4 5
+ 6 7 8 9 10
+ 11 12 13 14 15
+ 16 17 18 19 20
+ 21 22 23 24 25
 ```
 # 3 Pattern
 ```cpp
@@ -71,6 +89,15 @@ int main()
     return 0;
 }
 ```
+Input/Output
+```
+Enter the number: 4
+ 1 2 3 4
+ 5 6 7 8
+ 9 10 11 12
+ 13 14 15 16
+```
+
 # 4 Pattern
 ```cpp
 #include<iostream>
@@ -101,6 +128,15 @@ int main()
     return 0;
 }
 ```
+Input/Output
+```
+Enter the number: 5
+*    
+**   
+***  
+**** 
+*****
+```
 # 5 Pattern
 ```cpp
 #include<iostream>
@@ -130,6 +166,14 @@ int main()
     }
     return 0;
 }
+```
+Input/Output
+```
+Enter the number: 4
+1   
+22  
+333 
+4444
 ```
 # 6 Pattern
 ```cpp
@@ -162,6 +206,15 @@ int main()
 	return 0;
 }
 ```
+Input/Output
+```
+Enter the number: 4
+ 1   
+ 2 3  
+ 4 5 6 
+ 7 8 9 10
+```
+
 # 7 Pattern
 ```cpp
 #include<iostream>
@@ -196,6 +249,14 @@ int main()
 		return 0;
 }
 ```
+Input/Output
+```
+Enter the number:5
+1   
+23  
+345 
+4567
+```
 # Pattern 8
 ```cpp
 #include<iostream>
@@ -226,6 +287,14 @@ int main()
 		i++;
 	}
 	return 0;
+}
+```
+Input/Output
+```
+Enter the number:4
+1  
+21 
+321
 ```
 # Pattern 9
 ```cpp
@@ -249,6 +318,14 @@ int main()
     }   
     return 0;
 }
+```
+Input/Output
+```
+Enter the number:5
+1
+21
+321
+4321
 ```
 # Pattern 10
 ```cpp
@@ -277,6 +354,13 @@ int main()
 	return 0;
 }
 ```
+Input/Output
+```
+Enter the number of rows:3
+ 1  
+ 0 1 
+ 1 2 3
+```
 # Pattern 11
 ```cpp
 #include<iostream>
@@ -303,5 +387,14 @@ int main()
 	}
 	return 0;
 }
+```
+Input/Output
+```
+enter the number of rows:5
+ 1    
+ 1 0   
+ 2 1 0  
+ 3 2 1 0 
+ 4 3 2 1 0
 ```
 

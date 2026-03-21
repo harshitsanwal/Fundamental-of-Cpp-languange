@@ -1,5 +1,5 @@
 # Different Patterns in Cpp
-# 1 Pattern
+#  Pattern 1
 ```cpp
 #include<iostream>
 using namespace std;
@@ -32,7 +32,7 @@ Enter the number: 4
 5432
 ```
 
-# 2 Pattern
+#  Pattern 2
 ```cpp
 #include<iostream>
 using namespace std;
@@ -65,7 +65,7 @@ Enter the number: 5
  16 17 18 19 20
  21 22 23 24 25
 ```
-# 3 Pattern
+#  Pattern 3
 ```cpp
 #include<iostream>
 using namespace std;
@@ -98,7 +98,7 @@ Enter the number: 4
  13 14 15 16
 ```
 
-# 4 Pattern
+#  Pattern 4
 ```cpp
 #include<iostream>
 using namespace std;
@@ -137,7 +137,7 @@ Enter the number: 5
 **** 
 *****
 ```
-# 5 Pattern
+#  Pattern 5
 ```cpp
 #include<iostream>
 using namespace std;
@@ -175,7 +175,7 @@ Enter the number: 4
 333 
 4444
 ```
-# 6 Pattern
+#  Pattern 6
 ```cpp
 #include<iostream>
 using namespace std;
@@ -215,7 +215,7 @@ Enter the number: 4
  7 8 9 10
 ```
 
-# 7 Pattern
+#  Pattern 7
 ```cpp
 #include<iostream>
 using namespace std;

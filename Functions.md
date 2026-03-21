@@ -17,8 +17,9 @@ DRY (Don't Repeat Yourself): Instead of writing the same logic five times, you w
 Abstraction: You don't need to know how sort() works to use it; you just need to know what it does.
 
 Testing: It is much easier to test one small function than a 500-line program.
-# Example
+# Example 1
 ```cpp
+//Porwer Function in Cpp
 #include<iostream>
 using namespace std;
 int power(int , int); //Function Delclaration/Prototype
@@ -43,10 +44,41 @@ int power(int a ,int b) // Function Defination
     return n;
 }
 ```
+## Input/Output
 ```
 Enter the Number :13
 
  Enter the power of the Number :2
 
  Power of 13 to power 2 is: 169
+```
+# Example 2
+```cpp
+// Odd Even Function in Cpp
+#include<iostream>
+using namespace std;
+bool isEven(int n);
+int main()
+{   int n;
+    cout << "Enter a number :";
+    cin >> n;
+    int result= isEven(n);
+    if(result==1)
+    cout<< "\nNumber is Even" << endl;
+    else
+    cout<< "\nNumber is Odd" << endl;
+    return 0;
+}
+bool isEven( int n)
+{
+    if(n%2==0)
+    return 1;
+    return 0;
+}
+```
+## Input/Output
+```
+Enter a number :3
+
+Number is Odd
 ```

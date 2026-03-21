@@ -43,4 +43,10 @@ int power(int a ,int b) // Function Defination
     return n;
 }
 ```
+```
+Enter the Number :13
 
+ Enter the power of the Number :2
+
+ Power of 13 to power 2 is: 169
+```

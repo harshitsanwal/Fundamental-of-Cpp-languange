@@ -17,3 +17,30 @@ DRY (Don't Repeat Yourself): Instead of writing the same logic five times, you w
 Abstraction: You don't need to know how sort() works to use it; you just need to know what it does.
 
 Testing: It is much easier to test one small function than a 500-line program.
+# Example
+```cpp
+#include<iostream>
+using namespace std;
+int power(int , int); //Function Delclaration/Prototype
+int main()
+{
+    int a ,b;
+ cout << "Enter the Number :";
+ cin>>a;
+ cout << "\n Enter the power of the Number :";
+ cin>>b;
+ int result=power(a,b); // Function Call
+ cout<< a <<" to power " << b <<" is: "<< result << endl;
+ return 0;
+}
+int power(int a ,int b) // Function Defination
+{
+    int n=1;
+    for(int i=1;i<=b;i++)
+    {
+        n=n*a;
+    }
+    return n;
+}
+```
+

@@ -119,7 +119,6 @@ return 0;
 }
 ```
 # Simple Patterns
-# 
 ```cpp
 #include<iostream>
 using namespace std;
@@ -143,3 +142,42 @@ int main()
     return 0;
 }
 ```
+# Switch Case
+```cpp
+#include<iostream>
+using namespace std;
+int main()
+{   int a,b;
+    cout << "\n Enter two numbers:";
+    cin>>a>>b;
+    int choice;
+    cout << "\n press 1 for addition";
+    cout << "\n press 2 for subtraction";
+    cout << "\n press 3 for multiplication";
+    cout << "\n press 4 for division";
+    cout << "\nEnter yout choice:";
+    cin>>choice;
+    int c;
+    switch(choice)
+    {
+        case 1:
+        c=a+b;
+        break;
+        case 2:
+        c=a-b;
+        break;
+        case 3:
+        c=a*b;
+        break;
+        case 4:
+        c=a/b;
+        break;
+        default:
+        cout << "\n Invalid choice";
+        break;
+    }
+    cout << "\n The answer is:" << c<< endl;
+     return 0;
+}
+```
+
